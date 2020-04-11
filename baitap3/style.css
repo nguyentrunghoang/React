@@ -1,0 +1,98 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+    background: white;
+    color: rgba(255, 255, 255, 0.9);
+  
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    height: 500px;
+    position: relative;
+    padding: 50px, 150px;
+}
+#header {
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    #header ul {
+      background-color: whitesmoke;
+      padding-left: 0;
+
+      }
+    #header ul li  {
+      display: inline;
+      margin-right: 25px;
+    }
+    #header ul li a {
+      text-decoration: none;
+      color: #555;
+      padding: 5px, 10px;
+      border-radius: 5px;
+    }
+    #header ul li a:hover{
+      color: #ffffff;
+      background-color: #555;
+    }
+#title{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#title a{
+    font-size: 40px;
+    color: black;
+
+}
+#content {
+background: rergba(19, 19, 20, 0.329)d;
+color: white;
+width: 500px;
+float: left;
+padding: 1em;
+padding-left: 50px;
+text-align: left;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+#img {
+    width: 500px;
+    height: 400px;
+}
+#sidebar {
+background: rergba(19, 19, 20, 0.329)d;
+color: black;
+width: 650px;
+float: right;
+padding: 10px;
+}
+#abc{
+    text-align: center;
+    font-size: 25px;
+}
+#button{
+background-color: rgb(116, 75, 14);
+color: white;
+width: 600px;
+padding: 15px 30px;
+
+}
+#footer {
+clear: both;
+background: darkolivegreen;
+color: white;
+padding: 10px;
+text-align: center;
+}
+#footer_button  {
+    background-color: rgb(116, 75, 14);
+    color: white;
+    width: 500px;
+    padding: 1px 25px;
+    
+    }

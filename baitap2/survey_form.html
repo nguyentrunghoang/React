@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SERVEY FORM</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="vien">
+    <b>SERVEY FORM</b>
+    <form id="khung">
+        <p>PHIẾU THÔNG TIN SINH VIÊN UDCK, HỌC KỲ I, NĂM HỌC 2019-2020</p>
+        <div class="form">
+            <form>
+            <div class="row">
+              <div class="lab">
+                <label>* HỌ VÀ TÊN:</label>
+              </div>
+              <div class="cl_input">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="lab">
+                <label>* Tuổi:</label>
+              </div>
+              <div class="cl_input">
+                <input type="number" id="number" min="18">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="lab">
+                <label>* LỚP:</label>
+              </div>
+              <div class="cl_input">
+                <input type="text" id="yourclass" name="yourclass" placeholder="Your class">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="lab">
+                <label>* kHOA:</label>
+              </div>
+              <div class="cl_input">
+                <select id="khoa" name="khoa">
+                  <option>kỸ THUẬT NGÔNG NGHIỆP</option>
+                  <option>SƯ PHẠM - DỰ BỊ ĐẠI HỌC</option>
+                  <option>KINH TẾ</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="lab">
+                <label for="subject">NỘI DUNG:</label>
+              </div>
+              <div class="cl_input">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+
+            <div class="row">
+              <input type="submit" value="Gửi">
+            </div>
+            </form>
+          </div>
+    </form>
+</div>
+</body>
+</html>
